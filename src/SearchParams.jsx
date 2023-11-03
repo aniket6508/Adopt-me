@@ -5,7 +5,6 @@ import useBreedList from "./useBreedList";
 import fetchSearch from "./fetchSearch";
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 const SearchParams = () => {
-  //Hooks
   const [requestParams, setRequestParams] = useState({
     location: "",
     animal: "",
